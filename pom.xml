@@ -1,23 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.derbysoft.storage</groupId>
-  <artifactId>parent</artifactId>
-  <packaging>pom</packaging>
-  <version>1.0-SNAPSHOT</version>
-  <name>storage-parent</name>
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.6</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
-  <modules>
-    <module>protocol</module>
-    <module>scheduler</module>
-    <module>router</module>
-    <module>storage</module>
-  </modules>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.derbysoft.storage</groupId>
+	<artifactId>parent</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0-SNAPSHOT</version>
+	<name>storage-parent</name>
+	<distributionManagement>
+		<repository>
+			<id>derbysoft</id>
+			<name>Derbysoft Release Repository</name>
+			<url>scp://10.200.107.43/home/maven/repository/</url>
+		</repository>
+		<snapshotRepository>
+			<id>derbysoft</id>
+			<name>Derbysoft Snapshot Repository</name>
+			<url>scp://10.200.107.43/home/maven/repository/</url>
+		</snapshotRepository>
+	</distributionManagement>
+	<repositories>
+		<repository>
+			<id>derbysoft</id>
+			<name>derbysoft repository</name>
+			<url>http://10.200.107.43/maven2</url>
+		</repository>
+		<repository>
+			<id>googlecode.guice-spring</id>
+			<name>googlecode.guice-spring</name>
+			<url>http://guice-spring.googlecode.com/svn/maven2/releases/</url>
+		</repository>
+		<repository>
+			<id>googlecode.guice-junit4</id>
+			<name>googlecode.guice-junit4</name>
+			<url>http://guice-junit4.googlecode.com/svn/maven2/releases/</url>
+		</repository>
+		<repository>
+			<id>googlecode.functional-collections.releases</id>
+			<name>googlecode.functional-collections.releases</name>
+			<url>http://functional-collections.googlecode.com/svn/maven2/releases/</url>
+		</repository>
+		<repository>
+			<id>googlecode.functional-collections.snapshots</id>
+			<name>googlecode.functional-collections.snapshots</name>
+			<url>http://functional-collections.googlecode.com/svn/maven2/snapshots/</url>
+		</repository>
+	</repositories>
+	<modules>
+		<module>protocol</module>
+		<module>scheduler</module>
+		<module>router</module>
+		<module>storage</module>
+	</modules>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.6</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 </project>
