@@ -6,5 +6,8 @@ The introduction of OTA Hotel Messages
 = Details =
 
 
- * OTA_HotelAvail Query Rates
- * OTA_HotelAvailGet Query Availability Status And Booking Limits
+ * OTA_HotelAvail 
+    # Query Rates
+ * OTA_HotelAvailGet 
+    # Query Availability Status 
+    # Query Booking Limits
