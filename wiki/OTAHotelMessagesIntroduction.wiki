@@ -1,5 +1,3 @@
-#summary One-sentence summary of this page.
-
 = Introduction =
 
 The introduction of OTA Hotel Messages
@@ -7,4 +5,5 @@ The introduction of OTA Hotel Messages
 
 = Details =
 
-OTA_HotelAvail
+OTA_HotelAvail    Query Rates
+OTA_HotelAvailGet  Query Availability Status And Booking Limits
