@@ -27,3 +27,7 @@ The introduction of OTA Hotel Messages
  * OTA_HotelRateAmountNotif
    # The Hotel Rate Amount Notification message notifies a booking source of changes in the rates charged for room and non-room products of a hotel.
    # The creation of a new rate plan is done through the Rate Plan Notification message. 
+
+ * OTA_HotelRatePlan
+   # The HotelRatePlan message provides the ability to search for active rate plans and offers. The message will be used primarily to ensure that two systems are in sync. It can used in place of the HotelRatePlanNotif message when a pull model is desired.
+
