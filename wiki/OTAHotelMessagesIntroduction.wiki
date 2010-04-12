@@ -24,3 +24,6 @@ The introduction of OTA Hotel Messages
    # The Hotel Inventory Notification message is the message that sends the notification of the creation of a new inventory item, such as a room type or service type that did not previously exist at a hotel property. 
    # The Hotel Inventory Notification message should precede the Inventory Count Notification and Rate Plan Notification messages. The Inventory Count Notification establishes the physical inventory count by inventory code, and a Rate Plan Notification assigns a rate plan to the inventory item.
 
+ * OTA_HotelRateAmountNotif
+   # The Hotel Rate Amount Notification message notifies a booking source of changes in the rates charged for room and non-room products of a hotel.
+   # The creation of a new rate plan is done through the Rate Plan Notification message. 
