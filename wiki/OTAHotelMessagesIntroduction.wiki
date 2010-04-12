@@ -11,7 +11,7 @@ The introduction of OTA Hotel Messages
 
  * OTA_HotelAvailGet
     # Query Availability Status 
-    # Query Booking Limits (Inventory)
+    # Query Booking Limits (Related with Inventory?)
 
  * OTA_HotelAvailNotif
     # Similar with OTA_HotelAvailGet, but with reversed direction : provider -> channel
