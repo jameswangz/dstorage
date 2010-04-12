@@ -31,3 +31,5 @@ The introduction of OTA Hotel Messages
  * OTA_HotelRatePlan
    # The HotelRatePlan message provides the ability to search for active rate plans and offers. The message will be used primarily to ensure that two systems are in sync. It can used in place of the HotelRatePlanNotif message when a pull model is desired.
 
+ * OTA_HotelRatePlanNotif
+   # The Hotel Rate Plan Notification message is used to notify a booking source of a new rate plan created for a hotel, or to modify and synchronize existing rate plans between systems.
