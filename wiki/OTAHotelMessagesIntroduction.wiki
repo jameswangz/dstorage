@@ -13,3 +13,5 @@ The introduction of OTA Hotel Messages
     # Query Booking Limits (Inventory)
  * OTA_HotelAvailNotif
     # Similar with OTA_HotelAvailGet, but with reversed direction : provider -> channel
+ * OTA_HotelInvCountNotif
+    # The Inventory Count Notification is used to send base inventory levels by inventory code, (e.g., room type code) to establish the physical inventory count. An Inventory Notification should always precede an Inventory Count Notification to establish the existence of inventory codes in the reservation system.
