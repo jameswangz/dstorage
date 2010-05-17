@@ -35,16 +35,6 @@
 			<name>googlecode.guice-junit4</name>
 			<url>http://guice-junit4.googlecode.com/svn/maven2/releases/</url>
 		</repository>
-		<repository>
-			<id>googlecode.functional-collections.releases</id>
-			<name>googlecode.functional-collections.releases</name>
-			<url>http://functional-collections.googlecode.com/svn/maven2/releases/</url>
-		</repository>
-		<repository>
-			<id>googlecode.functional-collections.snapshots</id>
-			<name>googlecode.functional-collections.snapshots</name>
-			<url>http://functional-collections.googlecode.com/svn/maven2/snapshots/</url>
-		</repository>
 	</repositories>
 	<modules>
 		<module>protocol</module>
@@ -58,6 +48,36 @@
 			<artifactId>junit</artifactId>
 			<version>4.6</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.google.inject</groupId>
+			<artifactId>guice</artifactId>
+			<version>2.0</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.google.inject.extensions</groupId>
+			<artifactId>guice-servlet</artifactId>
+			<version>2.0</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.derbysoft</groupId>
+			<artifactId>derbysoft-remote-dswitch</artifactId>
+			<version>1.0.39</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.googlecode.guice-junit4</groupId>
+			<artifactId>guice-junit4-spring-transactional</artifactId>
+			<version>0.1.0</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.googlecode.functional-collections</groupId>
+			<artifactId>functional-collections</artifactId>
+			<version>1.1.5</version>
+			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 </project>

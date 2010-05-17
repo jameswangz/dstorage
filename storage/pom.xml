@@ -12,9 +12,9 @@
 	<name>storage</name>
 	<dependencies>
 		<dependency>
-			<groupId>com.derbysoft.storage</groupId>
+			<groupId>${project.groupId}</groupId>
 			<artifactId>protocol</artifactId>
-			<version>${version}</version>
+			<version>${project.version}</version>
 			<scope>compile</scope>
 		</dependency>
 	</dependencies>
