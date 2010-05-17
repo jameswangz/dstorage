@@ -30,11 +30,6 @@
 			<name>googlecode.guice-spring</name>
 			<url>http://guice-spring.googlecode.com/svn/maven2/releases/</url>
 		</repository>
-		<repository>
-			<id>googlecode.guice-junit4</id>
-			<name>googlecode.guice-junit4</name>
-			<url>http://guice-junit4.googlecode.com/svn/maven2/releases/</url>
-		</repository>
 	</repositories>
 	<modules>
 		<module>protocol</module>
